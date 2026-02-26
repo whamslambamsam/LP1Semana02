@@ -17,19 +17,19 @@ namespace TempConvert
             switch (unit)
             {
                 case "F":
-                    Console.WriteLine(temp + " F = " + Math.Round((temp - 32) / 1.8, 2) + " C");
+                    Console.WriteLine(temp + " F = " + Math.Round((temp - 32) / 1.8, 3) + " C");
                     break;
 
                 case "f":
-                    Console.WriteLine(temp + " F = " + Math.Round((temp - 32) / 1.8, 2) + " C");
+                    Console.WriteLine(temp + " F = " + Math.Round((temp - 32) / 1.8, 3) + " C");
                     break;
 
                 case "C":
-                    Console.WriteLine(temp + " C = " + Math.Round(temp * 1.8 + 32, 2) + " F");
+                    Console.WriteLine(temp + " C = " + Math.Round(temp * 1.8 + 32, 3) + " F");
                     break;
 
                 case "c":
-                    Console.WriteLine(temp + " C = " + Math.Round(temp * 1.8 + 32, 2) + " F");
+                    Console.WriteLine(temp + " C = " + Math.Round(temp * 1.8 + 32, 3) + " F");
                     break;
             }
         }
