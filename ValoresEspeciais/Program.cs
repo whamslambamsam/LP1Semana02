@@ -39,6 +39,24 @@ namespace ValoresEspeciais
             Console.WriteLine("Integer: ");
             Console.WriteLine(int.MaxValue);
             Console.WriteLine(int.MinValue);
+
+            Console.WriteLine("");
+            Console.WriteLine("---");
+            Console.WriteLine("");
+
+            Console.WriteLine("Float: " + float.NegativeInfinity);
+            Console.WriteLine("Double: " + double.NegativeInfinity);
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Float: " + float.PositiveInfinity);
+            Console.WriteLine("Double: " + double.PositiveInfinity);
+
+            Console.WriteLine("");
+
+            Console.WriteLine("Float: " + float.NaN);
+            Console.WriteLine("Double: " + double.NaN);
+
         }
     }
 }
