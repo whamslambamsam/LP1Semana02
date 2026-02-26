@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security.Cryptography;
+using System.Threading.Tasks;
 
 namespace TempConvert
 {
@@ -6,7 +8,13 @@ namespace TempConvert
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP!");
+            double output;
+
+            Console.Write("Temperature: ");
+            double temp = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Unit (C/F): ");
+            string unit = Console.ReadLine();
         }
     }
 }
