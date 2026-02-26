@@ -31,6 +31,10 @@ namespace TempConvert
                 case "c":
                     Console.WriteLine(temp + " C = " + Math.Round(temp * 1.8 + 32, 3) + " F");
                     break;
+                
+                default:
+                    Console.WriteLine("Invalid Unit.");
+                    break;
             }
         }
     }
