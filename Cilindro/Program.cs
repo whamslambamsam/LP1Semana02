@@ -11,6 +11,12 @@ namespace Cilindro
 
             Console.Write("Insira raio: ");
             double raio = Convert.ToDouble(Console.ReadLine());
+
+            double volume = Math.PI * Math.Pow(raio, 2) * altura;
+            Console.WriteLine(volume); 
+
+            double areaSuperficie = 2 * Math.PI * raio * (raio + altura);
+            Console.WriteLine(areaSuperficie);
         }
     }
 }
