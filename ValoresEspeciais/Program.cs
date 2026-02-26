@@ -28,7 +28,7 @@ namespace ValoresEspeciais
             Console.WriteLine(ulong.MaxValue);
             Console.WriteLine(ulong.MinValue);
 
-
+            Console.WriteLine("");
 
             Console.WriteLine("Float: ");
             Console.WriteLine(float.MaxValue);
